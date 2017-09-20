@@ -4,5 +4,15 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+var Apps = React.createClass({
+    render: function() {
+        return(
+            <div>
+                
+            </div>
+        )
+    }
+});
+
+ReactDOM.render(<Apps />, document.getElementById('root'));
 registerServiceWorker();
