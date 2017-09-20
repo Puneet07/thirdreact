@@ -21,12 +21,7 @@ class App extends Component {
   render() {
     return (
       <div>
-          {this.state.test.map((test, i) => 
-            <span key={i}>
-              <h1>{test.test1} </h1>
-              <h2>{test.test2}</h2>
-            </span>
-          )}
+          
       </div>
     );
   }
